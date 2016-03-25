@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    z-index:1;
+    text-align: center;
+    vertical-align: center;
+    border-style: groove;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+body img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity:0.3;
+}
+
+.jumbotron {
+  margin-top: 20px;
+}
+
+#jumbo{
+  padding-top: -500px;
+}
+
+#survey {
+  font-size: 18px;
+  background-color: faf0e6;
+  text-align: center
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+#result {
+  display: none;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+
+}
