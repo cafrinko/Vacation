@@ -6,8 +6,8 @@
     border-style: double;
     margin-top: 65px;
     margin-bottom: 50px;
-    width: 600px;
-    border-radius: 20px;
+    width: 700px;
+    border-radius: 50px;
     background-color: rgb(230, 210, 189);
     font-family: sans-serif;
     padding-bottom: 20px;
@@ -23,24 +23,33 @@ body img {
   }
 
 .jumbotron {
+  display: inline-block;
   margin-top: 30px;
   margin-bottom: 20px;
-  border-style: ridge;
+  height: 200px;
+  width: 450px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: double;
+  border-radius: 20px;
   background-color: rgb(198, 221, 228)
 }
 
 h3 {
   font-family: sans-serif;
   font-size: 30px;
+  color: darkblue;
 }
 
 h4 {
   font-family: sans-serif;
   font-size: 20px;
+  color: darkblue;
 }
 
 #survey {
-  font-size: 13px;
+  font-size: 14px;
+  color: darkgreen;
   background-color: faf0e6;
   text-align: center
   margin-top: 20px;
