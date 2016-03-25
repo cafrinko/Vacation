@@ -3,9 +3,14 @@
     z-index:1;
     text-align: center;
     vertical-align: center;
-    border-style: groove;
-    margin-top: 50px;
+    border-style: double;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    width: 600px;
     border-radius: 20px;
+    background-color: rgb(230, 210, 189);
+    font-family: sans-serif;
+    padding-bottom: 20px;
 }
 
 body img {
@@ -15,18 +20,27 @@ body img {
   width: 100%;
   height: auto;
   opacity:0.3;
-}
+  }
 
 .jumbotron {
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-style: ridge;
+  background-color: rgb(198, 221, 228)
 }
 
-#jumbo{
-  padding-top: -500px;
+h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 #survey {
-  font-size: 18px;
+  font-size: 13px;
   background-color: faf0e6;
   text-align: center
   margin-top: 20px;
@@ -35,11 +49,8 @@ body img {
 
 #result {
   display: none;
+  font-style: sans-serif;
   font-size: 30px;
   text-align: center;
   vertical-align: middle;
-}
-
-@media screen and (max-width: 768px) {
-
 }
